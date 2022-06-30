@@ -3,6 +3,7 @@
   "editor.codeActionsOnSave": {
     "source.organizeImports": true
   },
+  "editor.tabSize": 2,
   "editor.formatOnPaste": true,
   "javascript.preferences.quoteStyle": "single",
   "typescript.preferences.quoteStyle": "single"
