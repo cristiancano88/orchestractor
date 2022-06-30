@@ -1,12 +1,58 @@
 .container {
   height: 100%;
-}
+  background: url(../../assets/images/ripples-background.svg) no-repeat center center fixed;
+  background-color: #3d4b63;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  overflow: hidden;
+  max-width: none;
+  font-family: "Noto Sans", sans-serif;
 
-.login-form {
-  width: 350px;
-  padding: 2rem 1rem 1rem;
-}
+  .login-form {
+    width: 350px;
+    padding: 0.3rem 2rem 1rem;
+    background-color: #a1acb7;
+    opacity: 0.9;
+    border-radius: 0;
 
-form {
-  padding: 1rem;
+    .icon-orchestrator {
+      color: #004183;
+      margin-bottom: 35px;
+
+      svg {
+        width: 103px;
+        height: 107px;
+      }
+    }
+
+    h2 {
+      color: #3d3d3d;
+      font-weight: bold;
+      margin-bottom: 0;
+    }
+
+    form {
+      padding: 1rem;
+
+      .password-field {
+        display: -webkit-box;
+
+        label {
+          margin-left: 5px;
+          display: block;
+
+          svg {
+            height: 100%;
+            width: 20px;
+          }
+        }
+      }
+
+      .btn-primary {
+        background-color: #004183;
+      }
+    }
+  }
 }
